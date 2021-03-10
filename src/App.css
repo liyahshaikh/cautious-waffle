@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "NexaBold";
+    src: url("./fonts/Nexa Bold.otf") format("truetype");
+  }
+  @font-face{
+    font-family: "NexaLight";
+    src: url("./fonts/Nexa Light.otf") format("truetype");
+  }
+  @font-face{
+      font-family: "Sergoe UI Regular";
+      src: url("./fonts/Segoe UI.woff") format("truetype");
+  }

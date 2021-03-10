@@ -4,15 +4,12 @@ import {NavLink as Link} from 'react-router-dom';
 
  export const Nav = styled.nav`
 
- background: #000;
+ background: transparent;
  height:140px;
  display: flex;
  
  
  font-weight: 700;
- @media only screen and (max-width: 400px){
-     height: 50px;
- }
 
 
  `
@@ -23,19 +20,15 @@ padding-left: 20px;
 padding-top: 4%;
 align-self: left;
 
-@media only screen and (max-width: 400px){
-    width: 30%;
-    height: 50%;
-    padding-top: 13px;
-}
+
 
  `
  export const NavLink= styled(Link)`
     
-    
+    font-family: NexaLight;
     color: #f2f2f2;
     text-align: center;
-    font-weight: 400;
+    justify-self: space-around;
     opacity: 0.8;
     text-decoration: none;
     font-size: 17px;
@@ -44,14 +37,12 @@ align-self: left;
     padding-right: 12px;
     height: 30px;
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 500px){
         visibility: hidden;
     }
 
-  
-    
- 
- `
+`
+
 
  
  
