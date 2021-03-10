@@ -14,7 +14,7 @@ import {NavLink as Link} from 'react-router-dom';
 
  `
  export const Img= styled.img`
- height: 27%;
+ height: 30%;
 width: 11%;
 padding-left: 20px;
 padding-top: 4%;

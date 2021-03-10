@@ -10,3 +10,22 @@ width: 100vw;
 
 
 `
+export const HeroContent = styled.div`
+`
+export const HeroItems = styled.div`
+`
+
+export const HeroH1= styled.h1`
+color: #f2f2f2;
+font-family: NexaBold;
+font-size: 70px;
+text-align: center;
+padding-top: 20vh;
+
+`
+export const HeroP = styled.p`
+color: #f2f2f2;
+font-family: NexaLight;
+font-size: 30px;
+text-align: center;
+`
