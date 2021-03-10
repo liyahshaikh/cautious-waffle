@@ -16,7 +16,7 @@ export const HeroItems = styled.div`
 `
 
 export const HeroH1= styled.h1`
-color: #f2f2f2;
+color: #fff;
 font-family: NexaBold;
 font-size: 70px;
 text-align: center;
@@ -24,7 +24,7 @@ padding-top: 20vh;
 
 `
 export const HeroP = styled.p`
-color: #f2f2f2;
+color: #fff;
 font-family: NexaLight;
 font-size: 30px;
 text-align: center;

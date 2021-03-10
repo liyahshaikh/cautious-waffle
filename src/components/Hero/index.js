@@ -5,7 +5,7 @@ import {HeroContainer, HeroContent, HeroItems,HeroH1,HeroP} from "./HeroElements
 const Hero = () => {
     return (
         <HeroContainer>
-            <NavBar />
+            <NavBar style={{zIndex: 100}} />
             <HeroContent>
                 <HeroItems>
                     <HeroH1>Experience. Evolve. Inspire.</HeroH1>

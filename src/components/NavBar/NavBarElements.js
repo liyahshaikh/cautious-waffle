@@ -26,7 +26,7 @@ align-self: left;
  export const NavLink= styled(Link)`
     
     font-family: NexaLight;
-    color: #f2f2f2;
+    color: #fff;
     text-align: center;
     justify-self: space-around;
     opacity: 0.8;
