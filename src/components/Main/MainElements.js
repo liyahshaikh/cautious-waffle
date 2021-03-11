@@ -9,16 +9,16 @@ line-height: 1.6;
 
 `
 
-export const SemiCircle = styled.div`
+export const SemiCircleLeft = styled.div`
 z-index: 0;
 padding-top: 20vh;
 position: relative;
 background-color: #f5f5f5;
 margin: 0px; 
-height: 1500px;
-width: 750px;
-border-top-right-radius: 750px;
-border-bottom-right-radius: 750px;
+height: 1200px;
+width: 600px;
+border-top-right-radius: 600px;
+border-bottom-right-radius: 600px;
 `
 export const MainTitle = styled.p`
 font-family: NexaBold, sans-serif;
@@ -132,4 +132,19 @@ font-size: 35px;
 export const MainSection4 = styled.p`
 
 font-family: NexaLight;
+`
+
+
+export const SemiCircleRight = styled.div`
+z-index: 0;
+padding-top: 20vh;
+float: right;
+position: relative;
+
+background-color: #f5f5f5;
+margin: 0px; 
+height: 1200px;
+width: 600px;
+border-top-left-radius: 600px;
+border-bottom-left-radius: 600px;
 `

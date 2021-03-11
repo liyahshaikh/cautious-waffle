@@ -1,10 +1,10 @@
 import React from 'react'
-import { MainContainer, MainP, MainSection1, MainSection2, MainSection3, MainSection4,  MainTitle, ProfileButton, SemiCircle, Title1, Title2, Title3, Title4,  WhatWeDoSection, WhatWeDoSectionContent1, WhatWeDoSectionContent2,WhatWeDoSectionContent3,WhatWeDoSectionContent4 } from './MainElements'
+import { MainContainer, MainP, MainSection1, MainSection2, MainSection3, MainSection4,  MainTitle, ProfileButton, SemiCircleLeft, SemiCircleRight, Title1, Title2, Title3, Title4,  WhatWeDoSection, WhatWeDoSectionContent1, WhatWeDoSectionContent2,WhatWeDoSectionContent3,WhatWeDoSectionContent4 } from './MainElements'
 
 const Main = () => {
     return (
         <MainContainer>
-            <SemiCircle>
+            <SemiCircleLeft>
                 <MainTitle>WHO WE ARE</MainTitle>
                 <MainP>Driven by the idea of Artistic Integrity, BYOND Entertainment is a 360 degree based
                      music-based company cum record label that promises the most creativeride to our
@@ -42,7 +42,8 @@ const Main = () => {
                 </WhatWeDoSection>
 
                 
-            </SemiCircle>
+            </SemiCircleLeft>
+            <SemiCircleRight />
             
         </MainContainer>
     )
