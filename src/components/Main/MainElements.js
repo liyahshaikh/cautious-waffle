@@ -90,6 +90,7 @@ grid-template-rows: repeat(2, 250px);
 export const WhatWeDoSectionContent1 = styled.p`
 
 
+
 `
 export const Title1 = styled.p`
 font-family: NexaBold;
@@ -147,4 +148,97 @@ height: 1200px;
 width: 600px;
 border-top-left-radius: 600px;
 border-bottom-left-radius: 600px;
+`
+
+
+export const OurValuesSection = styled.div`
+position: absolute;
+top: 150vh;
+right: 43vw;
+width: 100%;
+z-index: 100;
+`
+export const OurValuesContent = styled.div`
+width: 100%;
+position absolute;
+float: left;
+
+
+`
+export const OurValuesTitle= styled.h1`
+position: absolute;
+top: 0vh;
+text-align: center;
+font-family: NexaBold, sans-serif;
+padding-left: 25%;
+padding-right: 10%;
+font-weight: 500;
+color: #000000;
+font-size: 50px;
+width: 100%;
+`
+
+export const OurValuesP = styled.div`
+position: absolute;
+top: 20vh;
+padding-top: 10vh;
+
+.title{
+  font-family: NexaBold, sans-serif;
+  font-size: 20px;
+  padding-right: 10vw;
+  
+}
+.main{
+  color: gray;
+  width: 50vw;
+}
+
+
+
+
+`
+export const OurTeamContent = styled.div`
+position: absolute;
+width: 100%;
+padding: 8vw;
+top: 40vh;
+left: 8vw;
+line-height: 2.5;
+
+.our-team{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  
+  column-gap: 50%;
+  
+  
+  
+}
+
+.btn-apply-now{
+    
+
+  width: 100%;
+  border: none;
+background-color: transparent;
+font-family: NexaBold;
+align-self: center;
+text-align: center;
+padding: 0;
+justify-content: center;
+border-bottom: 1px solid #000;
+  margin: 0 auto;
+  
+  
+cursor: pointer;
+font-size: 25px;
+
+
+}
+
+.head{
+  font-size: 50px;
+  font-family: NexaBold;
+}
 `
