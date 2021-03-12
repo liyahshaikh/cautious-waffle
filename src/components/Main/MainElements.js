@@ -6,6 +6,10 @@ background-color: #ffffff;
 padding-top: 20vh;
 line-height: 1.6;
 
+  position: relative;
+  min-height: 100vh;
+
+
 
 `
 
@@ -242,3 +246,4 @@ font-size: 25px;
   font-family: NexaBold;
 }
 `
+

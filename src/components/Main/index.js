@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer'
 import { MainContainer, OurValuesSection, OurValuesContent, MainP, MainSection1, MainSection2, MainSection3, MainSection4,  MainTitle, ProfileButton, SemiCircleLeft, SemiCircleRight, Title1, Title2, Title3, Title4,  WhatWeDoSection, WhatWeDoSectionContent1, WhatWeDoSectionContent2,WhatWeDoSectionContent3,WhatWeDoSectionContent4, OurValuesTitle, OurValuesP, OurTeamContent } from './MainElements'
 
 const Main = () => {
@@ -105,8 +106,10 @@ const Main = () => {
 
             </SemiCircleLeft>
 
+            <Footer />
             
         </MainContainer>
+
     )
 }
 
