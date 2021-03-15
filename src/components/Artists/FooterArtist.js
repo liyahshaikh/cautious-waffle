@@ -1,4 +1,5 @@
 import React from 'react'
+
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -6,12 +7,13 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import IconButton from '@material-ui/core/IconButton';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import { CopyRightContent, FooterContent, IconSection } from './FooterElements';
+import { CopyRightContent, FooterContent, IconSection } from '../Footer/FooterElements';
 
-const Footer = () => {
+function FooterArtist() {
     return (
         <div>
-        <FooterContent>
+            
+        <FooterContent style={{top:'230vw'}}>
             <IconSection>
             
             <IconButton to="/">
@@ -37,8 +39,10 @@ const Footer = () => {
             </CopyRightContent>
             
         </FooterContent>
+
+            
         </div>
     )
 }
 
-export default Footer
+export default FooterArtist

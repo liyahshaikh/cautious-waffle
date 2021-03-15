@@ -9,6 +9,7 @@ background-position: center;
 width: 100vw;
 
 
+
 `
 export const HeroContent = styled.div`
 `

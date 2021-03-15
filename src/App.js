@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom'
-import Hero from './components/Hero';
-import Main from './components/Main';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import AboutUs from './components/AboutUs'
+import Artists from './components/Artists';
 
 
 function App() {
   return (
     <Router>
-      
-      <Hero />
-      <Main />
-     
-
-      
+    
+      <Switch>
+          <Route path="/" exact component={() => <AboutUs />} />
+          <Route path="/artists" exact component={() => <Artists />} />
+      </Switch>
+        
     </Router>
   );
 }

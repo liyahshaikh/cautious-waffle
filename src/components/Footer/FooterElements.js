@@ -6,15 +6,18 @@ background-color: transparent;
 
 color: #000000;
 position: absolute;
-top: 620vh;
+
+top: 400vw;
+
 width: 100%;
-height: 12rem; 
+height: 22rem; 
+z-index: 100;
 `
 
 export const IconSection = styled.div`
 padding: 15vh;
 text-align: center;
-padding-left: 26vw;
+padding-left: 32vw;
 width: 40vw;
 align: center;
 padding-bottom: 0vh;
@@ -30,8 +33,8 @@ text-align: center;
 position: absolute;
 padding: 15vh;
 
-padding-left: 26vw;
+padding-left: 32vw;
 
-padding-bottom: 5vh;
+padding-bottom: 0vh;
 font-size: 15px;
 `

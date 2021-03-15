@@ -10,3 +10,8 @@
       font-family: "Sergoe UI Regular";
       src: url("./fonts/Segoe UI.woff") format("truetype");
   }
+  *{
+    margin: 0;
+    padding: 0;
+   
+  }

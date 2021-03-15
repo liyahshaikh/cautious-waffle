@@ -12,7 +12,7 @@ const NavBar = () => {
                 <Img src="WHITELOGO.png"></Img>
                 <div style={{paddingLeft: "40%", paddingTop: "5%"}}>
                 <NavLink to="/">About us</NavLink>
-                <NavLink to="/">Artists</NavLink>
+                <NavLink to="/artists">Artists</NavLink>
                 <NavLink to="/">Recruit</NavLink>
                 <NavLink to="/">Auditon</NavLink>
                 <NavLink to="/" style={{paddingLeft: "15%"}}>ENG</NavLink>

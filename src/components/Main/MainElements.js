@@ -4,7 +4,9 @@ import styled from 'styled-components'
 export const MainContainer= styled.div`
 background-color: #ffffff;
 padding-top: 20vh;
+
 line-height: 1.6;
+z-index: 100;
 
   position: relative;
   min-height: 100vh;
@@ -14,15 +16,18 @@ line-height: 1.6;
 `
 
 export const SemiCircleLeft = styled.div`
-z-index: 0;
-padding-top: 20vh;
+
+padding-top: 20vw;
 position: relative;
 background-color: #f5f5f5;
 margin: 0px; 
-height: 1200px;
-width: 600px;
-border-top-right-radius: 600px;
-border-bottom-right-radius: 600px;
+padding: 0;
+height: 100vw;
+width: 50vw;
+border-top-right-radius: 50vw;
+border-bottom-right-radius: 50vw;
+z-index: -1;
+
 `
 export const MainTitle = styled.p`
 font-family: NexaBold, sans-serif;
@@ -43,7 +48,7 @@ font-size: 50px;
 
 export const MainP= styled.p`
 width: 100%;
-padding-top: 30px;
+padding-top: 5vw;
 font-family: NexaLight, sans-serif;
 font-size: 15px;
 color: #000000;
@@ -69,7 +74,7 @@ export const ProfileButton = styled.a`
   border-bottom: 1px solid #000;
     margin: 0 auto;
    position: absolute;
-   top: 50vh;
+   top: 24vw;
    left: 70vw;
    width: 20%;
     
@@ -81,17 +86,20 @@ export const WhatWeDoSection = styled.div`
 display: grid;
 column-rule: 1px solid #000;
 position: relative;
-top: 80vh;
+top: 40vw;
 left: 13vw;
-column-gap: 50vh;
+column-gap: 20vw;
 width: 100%;
-row-gap: 20vh;
+row-gap: 15vw;
 line-height: 1.9;
 grid-template-columns: repeat(2, 20vw);
 grid-template-rows: repeat(2, 250px);
+z-index: 100;
 
 `
 export const WhatWeDoSectionContent1 = styled.p`
+padding-top: 7vw;
+
 
 
 
@@ -99,6 +107,7 @@ export const WhatWeDoSectionContent1 = styled.p`
 export const Title1 = styled.p`
 font-family: NexaBold;
 font-size: 35px;
+
 `
 export const MainSection1 = styled.p`
 font-family: NexaLight;
@@ -106,7 +115,7 @@ font-family: NexaLight;
 `
 
 export const WhatWeDoSectionContent2 = styled.p`
-
+padding-top: 7vw;
 
 
 `
@@ -119,7 +128,7 @@ font-family: NexaLight;
 `
 
 export const WhatWeDoSectionContent3 = styled.p`
-padding-top: 50px;
+padding-top: 5vw;
 `
 export const Title3 = styled.p`
 font-family: NexaBold;
@@ -129,7 +138,9 @@ export const MainSection3 = styled.p`
 font-family: NexaLight;
 `
 
-export const WhatWeDoSectionContent4 = styled.p``
+export const WhatWeDoSectionContent4 = styled.p`
+padding-top: 3vw;
+`
 export const Title4 = styled.p`
 font-family: NexaBold;
 font-size: 35px;
@@ -141,23 +152,24 @@ font-family: NexaLight;
 
 
 export const SemiCircleRight = styled.div`
-z-index: 0;
-padding-top: 20vh;
+
+padding-top: 30vw;
 float: right;
 position: relative;
-
+margin: 0px;
 background-color: #f5f5f5;
-margin: 0px; 
-height: 1200px;
-width: 600px;
-border-top-left-radius: 600px;
-border-bottom-left-radius: 600px;
+padding: 0;
+height: 100vw;
+width: 50vw;
+border-top-left-radius: 50vw;
+border-bottom-left-radius: 50vw;
+z-index: -1;
 `
 
 
 export const OurValuesSection = styled.div`
 position: absolute;
-top: 150vh;
+top: 70vw;
 right: 43vw;
 width: 100%;
 z-index: 100;
@@ -184,8 +196,8 @@ width: 100%;
 
 export const OurValuesP = styled.div`
 position: absolute;
-top: 20vh;
-padding-top: 10vh;
+top: 10vw;
+padding-top: 5vw;
 
 .title{
   font-family: NexaBold, sans-serif;
@@ -206,8 +218,9 @@ export const OurTeamContent = styled.div`
 position: absolute;
 width: 100%;
 padding: 8vw;
-top: 40vh;
-left: 8vw;
+
+top: 15vw;
+left: 5vw;
 line-height: 2.5;
 
 .our-team{

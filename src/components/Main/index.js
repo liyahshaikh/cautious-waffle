@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Footer'
+
 import { MainContainer, OurValuesSection, OurValuesContent, MainP, MainSection1, MainSection2, MainSection3, MainSection4,  MainTitle, ProfileButton, SemiCircleLeft, SemiCircleRight, Title1, Title2, Title3, Title4,  WhatWeDoSection, WhatWeDoSectionContent1, WhatWeDoSectionContent2,WhatWeDoSectionContent3,WhatWeDoSectionContent4, OurValuesTitle, OurValuesP, OurTeamContent } from './MainElements'
 
 const Main = () => {
@@ -49,7 +49,7 @@ const Main = () => {
                     frameborder='0'
                     allow='autoplay; encrypted-media'
                     allowfullscreen
-                    title='video' style={{position: 'absolute', alignSelf: 'center', right: '26vw', top: '40vh', width:'50vw', height: '35vw', paddingTop:'50px', zIndex: '100'}}
+                    title='video' style={{position: 'absolute', alignSelf: 'center', right: '26vw', top: '10vw', width:'50vw', height: '35vw', paddingTop:'50px', zIndex: '100'}}
                 />
                 <OurValuesSection>
                     <OurValuesContent>
@@ -88,7 +88,7 @@ const Main = () => {
                 </OurValuesSection>
 
             </SemiCircleRight>
-            <SemiCircleLeft style={{ position: 'relative', top: '200vh', zIndex:'-12'}}>
+            <SemiCircleLeft style={{ position: 'relative', top: '150vw', zIndex:'-12'}}>
                 <OurTeamContent>
                 <div class="our-team">
                 <div class="our-team-text">
@@ -106,7 +106,7 @@ const Main = () => {
 
             </SemiCircleLeft>
 
-            <Footer />
+            
             
         </MainContainer>
 
