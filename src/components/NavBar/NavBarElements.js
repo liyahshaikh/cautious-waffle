@@ -9,6 +9,7 @@ import {NavLink as Link} from 'react-router-dom';
  display: flex;
  
  
+ 
  font-weight: 700;
 
 

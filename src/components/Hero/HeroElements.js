@@ -7,7 +7,7 @@ background-size: cover;
 height: 100vh;
 background-position: center;
 width: 100vw;
-
+line-height: 1.9;
 
 
 `

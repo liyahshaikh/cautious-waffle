@@ -7,9 +7,10 @@ padding-top: 20vh;
 
 line-height: 1.6;
 z-index: 100;
+position: relative;
+min-height: 100vh;
 
-  position: relative;
-  min-height: 100vh;
+  
 
 
 
@@ -17,7 +18,7 @@ z-index: 100;
 
 export const SemiCircleLeft = styled.div`
 
-padding-top: 20vw;
+
 position: relative;
 background-color: #f5f5f5;
 margin: 0px; 
@@ -219,8 +220,9 @@ position: absolute;
 width: 100%;
 padding: 8vw;
 
-top: 15vw;
-left: 5vw;
+
+
+
 line-height: 2.5;
 
 .our-team{

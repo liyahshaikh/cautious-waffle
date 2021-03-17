@@ -2,6 +2,7 @@
 
 import Hero from '../Hero'
 import {SemiCircleRight} from "../Main/MainElements"
+import ScrollTopButton from '../ScrollTopButton'
 import { ArtistContent, ArtistTitle, Footer2 } from './ArtistsElements'
 import FooterArtist from './FooterArtist'
 
@@ -16,11 +17,13 @@ function Artists() {
             
             <SemiCircleRight style={{top: "12vw, paddingBottom: 0"}} />
                
-                    
-                        <ArtistTitle>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <ArtistTitle style={{top:"120vh"}} >
                             ARTIST RECRUITMENT
                         </ArtistTitle>
-                        <ArtistContent>
+                        <ArtistContent >
                             <div className="textMain">We look for potential candidates who share a passion for music and excel 
                 in Singing/Rapping/Dancing/Production, and Songwriting. Besides having a command 
                 over the above-mentioned skills, the candidates should also have a good network and socializing skills. 
@@ -34,11 +37,11 @@ function Artists() {
                         </ArtistContent>
 
                     
-                <ArtistTitle style={{top: '200vh'}}>
+                <ArtistTitle style={{top: '220vh'}}>
                 ARTIST DEVELOPMENT
                 </ArtistTitle>
-                <ArtistContent style={{top: '220vh'}}>
-                    <div className="textMain" style={{paddingTop: '32vh'}} >
+                <ArtistContent style={{top: '240vh'}}>
+                    <div className="textMain" style={{paddingTop: '27vh'}} >
                     The company believes in creating next-generation artists who can inspire, influence and impact lives through their music.
                  They will be trained under talented professionals and put through several fun tasks that can help them develop their craft and skills, shape their career 
                  and personality in the music industry.
@@ -48,7 +51,7 @@ function Artists() {
                     allow='autoplay; encrypted-media'
                     allowfullscreen
                     title='video' 
-                    style={{paddingTop: '30vh'}}
+                    style={{paddingTop: '25vh'}}
                 />
                     
                 </ArtistContent>
@@ -56,7 +59,7 @@ function Artists() {
                 ARTIST MANAGEMENT
                 </ArtistTitle>
                 <ArtistContent style={{top: '340vh'}}>
-                    <div className="textMain" style={{paddingTop: '32vh'}} >
+                    <div className="textMain" style={{paddingTop: '27vh'}} >
                     BYOND Entertainment believes in creating meaningful and long-term relationships with its artists. 
                 The company takes care of personal branding, album creation and promotion, record releases and tours, overall artist marketing and merchandising, 
                 concert planning, and performance management.
@@ -66,12 +69,13 @@ function Artists() {
                     allow='autoplay; encrypted-media'
                     allowfullscreen
                     title='video' 
-                    style={{paddingTop: '30vh'}}
+                    style={{paddingTop: '25vh'}}
                 />
                 
                     
                 </ArtistContent>
                <FooterArtist />
+               <ScrollTopButton />
                 
                     
                 

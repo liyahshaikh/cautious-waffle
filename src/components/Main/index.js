@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollTopButton from '../ScrollTopButton'
 
 import { MainContainer, OurValuesSection, OurValuesContent, MainP, MainSection1, MainSection2, MainSection3, MainSection4,  MainTitle, ProfileButton, SemiCircleLeft, SemiCircleRight, Title1, Title2, Title3, Title4,  WhatWeDoSection, WhatWeDoSectionContent1, WhatWeDoSectionContent2,WhatWeDoSectionContent3,WhatWeDoSectionContent4, OurValuesTitle, OurValuesP, OurTeamContent } from './MainElements'
 
@@ -88,7 +89,7 @@ const Main = () => {
                 </OurValuesSection>
 
             </SemiCircleRight>
-            <SemiCircleLeft style={{ position: 'relative', top: '150vw', zIndex:'-12'}}>
+            <SemiCircleLeft style={{ position: 'relative', height:"80vw", width:"40vw", top: '125vw', zIndex:'-12'}}>
                 <OurTeamContent>
                 <div class="our-team">
                 <div class="our-team-text">
@@ -105,6 +106,7 @@ const Main = () => {
                 </OurTeamContent>
 
             </SemiCircleLeft>
+            <ScrollTopButton />
 
             
             

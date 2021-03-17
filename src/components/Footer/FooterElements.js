@@ -7,11 +7,12 @@ background-color: transparent;
 color: #000000;
 position: absolute;
 
-top: 400vw;
+top: 340vw;
 
 width: 100%;
-height: 22rem; 
+height: 12rem; 
 z-index: 100;
+
 `
 
 export const IconSection = styled.div`
@@ -26,6 +27,7 @@ display: flex;
 justify-content: space-around;
 
 
+
 `
 export const CopyRightContent = styled.div`
 font-family: NexaLight;
@@ -35,6 +37,7 @@ padding: 15vh;
 
 padding-left: 32vw;
 
-padding-bottom: 0vh;
+padding-bottom: 7vw;
 font-size: 15px;
+
 `
