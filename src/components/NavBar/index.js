@@ -1,6 +1,6 @@
 import React from 'react'
-import MenuIcon from '@material-ui/icons/Menu';
-import IconButton from '@material-ui/core/IconButton';
+import DropDownMenu from '../DropDownMenu'
+
 import {Nav, Img, NavLink} from "./NavBarElements"
 
 const NavBar = () => {
@@ -17,9 +17,7 @@ const NavBar = () => {
                 <NavLink to="/">Auditon</NavLink>
                 <NavLink to="/" style={{paddingLeft: "15%"}}>ENG</NavLink>
                 </div>
-                <IconButton to="/">
-                <MenuIcon size="large" style={{color: "#ffffff",paddingTop: "18px", paddingLeft: "15px"}}></MenuIcon>
-                </IconButton>
+                <DropDownMenu/>
 
             </Nav>
         </>
