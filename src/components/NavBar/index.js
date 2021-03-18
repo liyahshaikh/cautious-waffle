@@ -10,12 +10,12 @@ const NavBar = () => {
             <Nav>
                 
                 <Img src="WHITELOGO.png"></Img>
-                <div style={{paddingLeft: "40%", paddingTop: "5%"}}>
+                <div style={{paddingLeft: "42vw", paddingTop: "5%", display:'flex'}}>
                 <NavLink to="/">About us</NavLink>
                 <NavLink to="/artists">Artists</NavLink>
                 <NavLink to="/">Recruit</NavLink>
-                <NavLink to="/">Auditon</NavLink>
-                <NavLink to="/" style={{paddingLeft: "15%"}}>ENG</NavLink>
+                <NavLink to="/">Audition</NavLink>
+                <NavLink to="/" style={{paddingLeft: "10%"}}>ENG</NavLink>
                 </div>
                 <DropDownMenu/>
 

@@ -10,7 +10,7 @@ import { CopyRightContent, FooterContent, IconSection } from './FooterElements';
 
 const Footer = () => {
     return (
-        <div>
+       
         <FooterContent>
             <IconSection>
             
@@ -37,7 +37,7 @@ const Footer = () => {
             </CopyRightContent>
             
         </FooterContent>
-        </div>
+       
     )
 }
 

@@ -11,7 +11,7 @@
       src: url("./fonts/Segoe UI.woff") format("truetype");
   }
   *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
    
   }

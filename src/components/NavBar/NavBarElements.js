@@ -9,7 +9,6 @@ import {NavLink as Link} from 'react-router-dom';
  display: flex;
  
  
- 
  font-weight: 700;
 
 
@@ -21,26 +20,25 @@ padding-left: 20px;
 padding-top: 4%;
 align-self: left;
 
-
+display: flex;
 
  `
  export const NavLink= styled(Link)`
-    
+    display: flex;
+
     font-family: NexaLight;
     color: #fff;
     text-align: center;
-    justify-self: space-around;
+    align-self: left;
     opacity: 0.8;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 12px;
+    margin-left: 10px;
     padding-left: 12px;
-    padding-right: 12px;
+    padding-right: 14px;
     height: 30px;
 
-    @media only screen and (max-width: 500px){
-        visibility: hidden;
-    }
+    
 
 `
 
