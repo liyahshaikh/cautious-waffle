@@ -33,7 +33,7 @@ const ScrollTopButton = () => {
         {isVisible && (
         <div onClick={scrollToTop}>
             <IconButton>
-                <ArrowUpwardIcon size="large" color="black" style={{color:"black", width:'50px', height:"50px",paddingRight:'0px'}}/> 
+                <ArrowUpwardIcon size="large" color="black" style={{color:"black", width:'50px', height:"50px",paddingRight:'0px', right:'2vw'}}/> 
                     
                 
             </IconButton>

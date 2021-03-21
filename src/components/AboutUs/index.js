@@ -8,7 +8,7 @@ function AboutUs() {
         <div>
             <Hero />
             <Main />
-            <Footer />
+            
             
         </div>
     )

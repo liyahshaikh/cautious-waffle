@@ -1,26 +1,28 @@
 import React from 'react'
 import DropDownMenu from '../DropDownMenu'
-
-import {Nav, Img, NavLink} from "./NavBarElements"
-
-const NavBar = () => {
-    
+import {NavLink as Link} from "react-router-dom"
+import "./Navbar.css"
+function NavBar() {
     return (
-        <>
-            <Nav>
-                
-                <Img src="WHITELOGO.png"></Img>
-                <div style={{paddingLeft: "42vw", paddingTop: "5%", display:'flex'}}>
-                <NavLink to="/">About us</NavLink>
-                <NavLink to="/artists">Artists</NavLink>
-                <NavLink to="/">Recruit</NavLink>
-                <NavLink to="/">Audition</NavLink>
-                <NavLink to="/" style={{paddingLeft: "10%"}}>ENG</NavLink>
+        <div className="header">
+            <img src="WHITELOGO.png" alt="BYOND LOGO" className="header__logo"/>
+            <div className="header__nav">
+                <div className="header__options">
+                    <Link className="header__link" to="/">About Us</Link>
                 </div>
-                <DropDownMenu/>
-
-            </Nav>
-        </>
+                <div className="header__options">
+                    <Link className="header__link" to="/artists">Artists</Link>
+                    </div>
+                <div className="header__options"><Link className="header__link" to="/">Recruit</Link></div>
+                <div className="header__options"><Link className="header__link" to="/">Audition</Link></div>
+                <div className="header__options"><Link className="header__link" to="/">ENG</Link></div>
+                </div>
+                <div className="header__dropdown">
+                    <DropDownMenu/>
+                </div>
+            
+            
+        </div>
     )
 }
 

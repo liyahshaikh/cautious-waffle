@@ -1,13 +1,18 @@
 
 import styled from 'styled-components'
-
+import {device} from '../device'
 export const HeroContainer = styled.div`
-background-image: url("https://images.unsplash.com/photo-1453090927415-5f45085b65c0?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwxMTQ2NjQ3fHxlbnwwfHx8&ixlib=rb-1.2.1&w=1000&q=80");
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bauhaus_August_2006_UK.jpg/1200px-Bauhaus_August_2006_UK.jpg");
 background-size: cover;
-height: 100vh;
+height: 120vh;
+width: 100%;
+
 background-position: center;
-width: 100vw;
+
 line-height: 1.9;
+@media ${device.mobileL}{
+    height: 70vh;
+}
 
 
 `
@@ -18,15 +23,22 @@ export const HeroItems = styled.div`
 
 export const HeroH1= styled.h1`
 color: #fff;
+padding: 20px;
 font-family: NexaBold;
-font-size: 70px;
+font-size: 5vw;
 text-align: center;
-padding-top: 20vh;
+padding-top: 80px;
+word-spacing: 2vw;
+
+
 
 `
 export const HeroP = styled.p`
 color: #fff;
 font-family: NexaLight;
-font-size: 30px;
+font-size: 2.5vw;
 text-align: center;
+
+padding-bottom: 20vh;
+
 `

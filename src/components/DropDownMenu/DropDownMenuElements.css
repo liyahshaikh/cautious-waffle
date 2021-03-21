@@ -1,15 +1,18 @@
+
 .menu-container {
-    position: relative;
-    top: 35px;
+    position: absolute;
+    top: 5.2vw;
+    right: 0vw;
     font-family: NexaLight;
     z-index: 100;
+    
   }
   .menu {
     align-self: right;
     background:  whitesmoke;
     border-radius: 8px;
     position: absolute;
-    top: 60px;
+    top:60px;
     right: 12px;
     width: 300px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
@@ -17,6 +20,7 @@
     visibility: hidden;
     transform: translateY(-20px);
     transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+    
   }
   
   .menu.active {
@@ -29,6 +33,17 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    
+  }
+  .hidden{
+    display: none;
+
+
+  }
+  @media (max-width:768px){
+    .hidden{
+      display: block;
+    }
   }
   
   .menu li {
@@ -54,7 +69,7 @@
     /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); */
     border: none;
     vertical-align: middle;
-    horizontal-align: right;
+    
     /*transition: box-shadow 0.4s ease; */
   }
   /*

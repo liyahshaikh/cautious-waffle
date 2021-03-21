@@ -6,14 +6,13 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import IconButton from '@material-ui/core/IconButton';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import { CopyRightContent, FooterContent, IconSection } from './FooterElements';
+import "./Footer.css"
 
 const Footer = () => {
     return (
-       
-        <FooterContent>
-            <IconSection>
-            
+        <div className="footer__container">
+        
+            <div className="footer__iconSection">
             <IconButton to="/">
                 <InstagramIcon size="large" style={{color: '#000000', size:"5x"}}></InstagramIcon>
             </IconButton>
@@ -29,15 +28,14 @@ const Footer = () => {
             <IconButton to="/">
                 <LinkedInIcon size="large" style={{color: '#000000', size:"5x"}}></LinkedInIcon>
             </IconButton>
-            </IconSection>
-            <CopyRightContent>
+            </div>
+            <div className="footer__copywriteSection">
                 <p>
+                    
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with  <FavoriteIcon size="small" /> by <a href="https://github.com/liyahshaikh" target="_blank" style={{color: '#000000'}}> Aliya Shaikh</a>
                 </p>
-            </CopyRightContent>
-            
-        </FooterContent>
-       
+                </div>
+            </div>
     )
 }
 

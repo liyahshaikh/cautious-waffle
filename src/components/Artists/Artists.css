@@ -1,0 +1,58 @@
+.artists__container{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+}
+.artist__title{
+    padding: 10px;
+    font-size: 40px;
+    font-family: NexaBold, sans-serif;
+    text-align: center;
+}
+.artists__content1{
+    padding: 30px;
+    
+}
+.artists__content2{
+    padding: 30px;
+}
+.artists__content3{
+    padding: 30px;
+}
+.artist__main{
+    display: flex;
+    justify-content: space-between;
+}
+.artist__text{
+    font-family: NexaLight, sans-serif;
+    font-size: 20px;
+    width: 60%;
+    padding: 60px;
+
+}
+iframe{
+    height: 20vw;
+    width: 40vw;
+}
+
+@media (max-width:768px){
+    .artist__title{
+        font-size: 20px;
+    }
+    .artist__text{
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .artist__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe{
+        
+    }
+
+}
+

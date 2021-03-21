@@ -1,6 +1,13 @@
 .scroll-to-top{
     color: black;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     right: 0;
+}
+@media (max-width:425px){
+    .scroll-to-top{
+    
+    right: 10;
+
+    }
 }

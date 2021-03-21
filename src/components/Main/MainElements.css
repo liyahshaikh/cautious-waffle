@@ -1,0 +1,284 @@
+.main__container{
+    display: flex;
+    background-color: #fff;
+    overflow-x: hidden;
+    width:100%; 
+    position: relative;
+    padding: 0;
+    white-space: nowrap;
+    font-family: NexaLight, sans-serif;
+    
+
+    
+}
+.semicircle__left{
+    
+    position: absolute; 
+    top: 200vh; 
+    left: 0%; 
+    transform: translate(-50%, -50%); 
+    height: 1000px; 
+    width: 500px; 
+    border-bottom-right-radius: 500px;
+    border-top-right-radius: 500px;
+    background-color:#f2f2f2;
+    z-index: -12;
+}
+.main__title{
+    font-size: 40px;
+    font-family: NexaBold;
+    
+}
+
+.main__whoWeAre{
+    position: relative;
+    top: 20px;
+    width: 60%;
+    padding: 60px;
+    z-index: 100;
+    font-family: NexaLight, sans-serif;
+}
+.main__whoWeAreContent{
+    font-size: 20px;
+}
+.main__profileLink{
+    text-decoration: none;
+    color: #000;
+    border: none;
+  background-color: transparent;
+  font-family: NexaBold;
+  align-self: center;
+  padding-right: 0;
+    
+  justify-content: center;
+  border-bottom: 1px solid #000;
+    margin-right:  auto;
+   position: absolute;
+   right: 0;
+   padding-top: 40px;
+    
+  cursor: pointer;
+  font-size: 15px;
+
+
+
+}
+.main__whatWeDo{
+    padding: 50px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatWeDo__main{
+    font-size: 20px;
+
+}
+.whatWeDo__content{
+    
+    display: grid;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-areas: "a b"
+                          "c d";
+
+}
+
+.main__whatWeDo1{
+    grid-area: a;
+    width: 50%;
+    font-family: NexaLight, sans-serif;
+
+}
+.whatWeDoTitle{
+    font-size: 25px;
+    font-family: NexaBold, sans-serif;
+}
+.main__whatWeDo2{
+    grid-area: b;
+    width: 50%;
+    font-family: NexaLight, sans-serif;
+
+}
+.main__whatWeDo3{
+    grid-area: c;
+    width: 50%;
+    font-family: NexaLight, sans-serif;
+
+
+}
+.main__whatWeDo4{
+    grid-area: d;
+    width: 50%;
+    font-family: NexaLight, sans-serif;
+
+    
+}
+.semicircle__right{
+    top: 260vh;
+    right: 0%;
+    /*transform: translate(-50%, -50%); */
+    height: 1000px; 
+    width: 500px; 
+    border-bottom-left-radius: 500px;
+    border-top-left-radius: 500px;
+    background-color:#f2f2f2;
+    position: absolute; 
+    
+    
+    z-index: -12;
+
+}
+.main__video{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+
+    padding: 50px;
+    align-self: center;
+    left: 50%;
+    height: 35vw;
+    width:50vw;
+}
+
+.main__ourValuesSection{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    font-size: 20px;
+}
+.ourValues__contentTitle{
+    font-family: NexaBold, sans-serif;
+    padding-right: 20px;
+    
+}
+.ourValues__contentMain{
+    
+}
+.ourValues__content1{
+    display: flex;
+    padding: 20px;
+    font-family: NexaLight, sans-serif;
+    
+    
+}
+.ourValues__content2{
+    display: flex;
+    padding: 20px;
+    font-family: NexaLight, sans-serif;
+    
+    
+}
+.ourValues__content3{
+    display: flex;
+    padding: 20px;
+    font-family: NexaLight, sans-serif;
+    
+    
+}
+.ourValues__content4{
+    display: flex;
+    padding: 20px;
+    font-family: NexaLight, sans-serif;
+    
+    
+}
+.main__ourTeamSection{
+    padding: 60px;
+}
+
+.ourTeam__text{
+    width: 60%;
+    font-size: 20px;
+    font-family: NexaLight, sans-serif;
+
+}
+.ourTeam__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-apply-now{
+    width: 20%;
+  border: none;
+background-color: transparent;
+font-family: NexaBold;
+align-self: center;
+text-align: center;
+padding: 0;
+justify-content: center;
+border-bottom: 1px solid #000;
+  margin: 0 auto;
+  
+  
+cursor: pointer;
+font-size: 25px;
+}
+
+@media (max-width: 768px){
+    .whatWeDo__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+    .main__whatWeDo1{
+        width: 100%;
+    }
+    .main__whatWeDo2{
+        width: 100%;
+    }
+    .main__whatWeDo3{
+        width: 100%;
+    }
+    .main__whatWeDo4{
+        width: 100%;
+    }
+    .ourValues__content1{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+        
+        
+    }
+    .ourValues__content2{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+        
+    }
+    .ourValues__content3{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+        
+    }
+    .ourValues__content4{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+        
+    }
+    .ourTeam__content{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .ourTeam__text{
+        padding-bottom: 100px;
+        width: 100%;
+    }
+    .btn-apply-now{
+        width: 50%;
+        align-items: left;
+    }
+}
+
