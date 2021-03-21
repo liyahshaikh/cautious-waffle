@@ -31,7 +31,7 @@ const DropDownMenu = () => {
         <div className="menu-container">
       <div onClick={onClick} className="menu-trigger">
       <IconButton to="/">
-                <MenuIcon size="large" style={{ position: "absolute",color: "#ffffff", backgroundColor:'transparent',paddingTop: "50px", paddingLeft: "20px", width:'5vw'}}></MenuIcon>
+                <MenuIcon size="large" className="hamburger__icon"></MenuIcon>
                 </IconButton>
         
       </div>

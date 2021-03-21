@@ -3,7 +3,7 @@
     display: flex;
     background-color: transparent;
     top: 0;
-    
+    padding-top:15px;
     z-index: 100;
     align-items: center;
     justify-content: space-between;
@@ -11,19 +11,20 @@
 .header__logo{
     position: absolute;
     height: 20%;
-width: 11%;
+    width: 11%;
     margin: 0 20px;
     margin-top: 18px;
-    padding-top:50px;
+    
     object-fit: contain;
 }
 .header__nav{
 
     margin-left: auto;
     padding-right: 80px;
-    padding-top: 100px;
+    padding-top: 80px;
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 .header__options{
@@ -33,8 +34,9 @@ width: 11%;
     display: flex;
     color: white;
     flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .header__link{
     font-size:20px;
@@ -44,11 +46,20 @@ width: 11%;
 
 }
 @media (max-width: 768px){
+    .header{
+        height: 60px;
+    }
+    
     .header__logo{
         height: 20%;
         width:30%;
+        
+        
+        
+        
     }
     .header__options{
         display: none;
     }
+
 }

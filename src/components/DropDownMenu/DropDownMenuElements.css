@@ -1,7 +1,6 @@
 
 .menu-container {
     position: absolute;
-    top: 5.2vw;
     right: 0vw;
     font-family: NexaLight;
     z-index: 100;
@@ -85,4 +84,14 @@
     margin: 0 3vw;
   }
   
-  
+  .hamburger__icon{
+    color: #fff;
+    padding-top: 10px;
+    
+  }
+   @media (max-width:768px){
+     .hamburger__icon{
+       padding-top: 0px;
+       
+     }
+   }
