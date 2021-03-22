@@ -20,7 +20,7 @@ const Main = () => {
                      artists and consumers. We aim to bring artists together through talent hunts,
                       train them to be a better version of themselves and launch them as a group under our label.
                 </p>
-                <Link className="main__profileLink" to="/">Company Profile</Link>
+                <Link className="main__profileLink" to="/company-profile">Company Profile</Link>
             
 
             </div>
