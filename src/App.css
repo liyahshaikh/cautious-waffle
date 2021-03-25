@@ -10,7 +10,15 @@
       font-family: "Sergoe UI Regular";
       src: url("./fonts/Segoe UI.woff") format("truetype");
   }
+  @font-face{
+    font-family: "Dense Font";
+    src: url("./fonts/DenseLetters-nRgDO.otf") format("truetype");
+  }
 
+@font-face {
+  font-family: "Punch-condense";
+  src: url("./fonts/PunchCondensed-lg9L5.otf") format("truetype");
+}
 
 html, body{
     overflow-x: hidden;

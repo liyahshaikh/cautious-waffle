@@ -15,7 +15,7 @@ function NavBar() {
                     </div>
                 <div className="header__options"><Link className="header__link" to="/">Recruit</Link></div>
                 <div className="header__options"><Link className="header__link" to="/">Audition</Link></div>
-                <div className="header__options"><Link className="header__link" to="/">ENG</Link></div>
+              
                 </div>
                 <div className="header__dropdown">
                     <DropDownMenu/>

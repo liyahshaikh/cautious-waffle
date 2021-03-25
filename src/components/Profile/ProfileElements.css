@@ -11,7 +11,7 @@
 .profile__language{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-right: 20px;
     
 }
 .profile__languageButton{
@@ -31,15 +31,19 @@
     font-size: 20px;
 }
 .profile__header{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    padding: 20px;
+    padding-bottom: 40px;
+    
 }
-.profile__headerLine{
-    padding: 50px;
-    padding-top: 150px;
+.profile__headerLine1{
+    font-family: "Punch-condense";
+    font-size: 250px;
+    margin: 10px;
+    
 }
 .profile__headerLine2{
     padding: 20px;
@@ -52,6 +56,7 @@
     font-size: 30px;
     word-spacing: 10px;
     font-family: NexaLight, sans-serif;
+    padding-top: 50px;
 }
 .profile__content1{
     display: flex;
@@ -88,6 +93,7 @@
     color: gray;
     text-decoration: none;
     font-size: 20px;
+    cursor: pointer;
 }
 .nav__element2{
     color:#000;
@@ -97,15 +103,48 @@
     font-size: 20px;
 }
 .nav__element3{
-    color: gray;
     text-decoration: none;
+    color: gray;
     font-size: 20px;
     display: flex;
+    flex-direction: column;
     text-align: center;
 }
 .profile__backNavigationPanel3{
-    padding-top: 40px;
+    padding-top: 80px;
 }
-.nav__element3Line1 > p{
-    font-size: 12px;
+.nav__element3Line1{
+    color:#000;
+    font-family: NexaBold, sans-serif;
+    border-bottom: 2px solid gray;
+    text-decoration: none;
+    
+    font-size: 20px;
+}
+@media (max-width:768px){
+    .profile__headerLine1{
+        font-size: 120px;
+    }
+    .profile__bar{
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .profile__languageButton{
+        padding: 10px;
+    }
+    .profile__back{
+        padding: 10px;
+    }
+    .profile__contentMain{
+        width: 100%;
+    }
+    .profile__backNavigationPanel{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .profile__backNavigationPanel2{
+        padding-top: 80px;
+    }
 }

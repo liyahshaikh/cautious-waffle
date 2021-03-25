@@ -2,9 +2,35 @@ import React from 'react'
 import "./ProfileElements.css"
 import {NavLink as Link} from "react-router-dom"
 import Footer from '../Footer'
+import {useEffect, useState} from "react";
+
+
 const Profile = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const BackToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
+      useEffect(() => {
+        // Button is displayed after scrolling for 500 pixels
+        const toggleVisibility = () => {
+          if (window.pageYOffset > 500) {
+            setIsVisible(true);
+          } else {
+            setIsVisible(false);
+          }
+        };
+        window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+
+
     return (
-        <div className="profile">
+        <div className="profile" id="Top">
             <div className="profile__bar">
                 
                 <div className="profile__back">
@@ -16,7 +42,7 @@ const Profile = () => {
                 </div>
             </div>
             <div className="profile__header">
-                <img src="https://see.fontimg.com/api/renderfont4/6YyZg/eyJyIjoiZnMiLCJoIjoxNTMsInciOjEwMDAsImZzIjoxNTMsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/QllPTkQ/punch.png" alt="" className="profile__headerLine"/>
+                <p className="profile__headerLine1">BYOND</p>
                 <p className="profile__headerLine2">ENTERTAINMENT</p>
             </div>
             <div className="profile__name">
@@ -52,13 +78,19 @@ const Profile = () => {
             </div>
             <div className="profile__backNavigationPanel">
                 <div className="profile__backNavigationPanel1">
-                    <Link to="/" className="nav__element1">BACK TO TOP</Link></div>
+                    {isVisible && (
+                        <div onClick={BackToTop}>
+                        <Link to="/company-profile" className="nav__element2">BACK TO TOP</Link>
+                        </div>
+                    )}
+                
+                    </div>
                 <div className="profile__backNavigationPanel2">
                     <Link to="/" className="nav__element2">HOME</Link>
                 </div>
                 <div className="profile__backNavigationPanel3">
                     <Link to="/" className="nav__element3">
-                        <p className="nav__element3Line1">APPLY NOW<p>(core team recruit)</p></p>
+                        <p className="nav__element3Line1">APPLY NOW</p><p>(core team recruit)</p>
                         
                     </Link>
                 </div>
