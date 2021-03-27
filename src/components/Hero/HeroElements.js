@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 import {device} from '../device'
 export const HeroContainer = styled.div`
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bauhaus_August_2006_UK.jpg/1200px-Bauhaus_August_2006_UK.jpg");
+background-image: url("BlackVinyl.jpg");
 background-size: cover;
 height: 120vh;
 width: 100%;

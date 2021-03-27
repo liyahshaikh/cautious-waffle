@@ -40,13 +40,17 @@
     
 }
 .profile__headerLine1{
-    font-family: "Punch-condense";
-    font-size: 250px;
+    font-family: "Segoe UI Bold";
+    font-size: 150px;
+    font-weight: 900;
     margin: 10px;
+    padding-bottom: 0px;
+    
     
 }
 .profile__headerLine2{
     padding: 20px;
+    padding-top: 0px;
     letter-spacing: 8px;
     font-size: 12px;
     
@@ -56,23 +60,33 @@
     font-size: 30px;
     word-spacing: 10px;
     font-family: NexaLight, sans-serif;
-    padding-top: 50px;
+    padding-top: 120px;
 }
 .profile__content1{
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
 
 }
 .profile__content2{
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .profile__content3{
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .profile__contentTitle{
     font-family: NexaBold, sans-serif;
@@ -137,6 +151,7 @@
     }
     .profile__contentMain{
         width: 100%;
+        font-size: 15px;
     }
     .profile__backNavigationPanel{
         

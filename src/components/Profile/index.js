@@ -36,10 +36,7 @@ const Profile = () => {
                 <div className="profile__back">
                     <Link to="/" className="profile__languageButton">BACK</Link>
                 </div>
-                <div className="profile__language">
-                    <Link to="/company-profile" className="profile__languageButton">ENG</Link>
-                    <Link to="/company-profile" className="profile__languageButton">HIN</Link>
-                </div>
+                
             </div>
             <div className="profile__header">
                 <p className="profile__headerLine1">BYOND</p>
@@ -49,7 +46,7 @@ const Profile = () => {
                 COMPANY PROFILE
             </div>
             <div className="profile__content1">
-                <p className="profile__contentTitle">STORY</p>
+                <p className="profile__contentTitle">OUR STORY</p>
                 <p className="profile__contentMain">
                     Our Vision is to train and nurture young artists who would pave the way for a unique popular culture in India and expand it globally.
                     BYOND Entertainment also envisions to be the best music based production company and artist management platform through constant 

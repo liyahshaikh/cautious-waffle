@@ -20,7 +20,7 @@ function Artists() {
                         <div className="artist__text">
                         We look for potential candidates who share a passion for music and excel 
                 in Singing/Rapping/Dancing/Production, and Songwriting. Besides having a command 
-                over the above-mentioned skills, the candidates should also have a good network and socializing skills. 
+                over the above-mentioned skills, the candidates should also have a good networking and socializing skills. 
                 BYOND Entertainment does not look for the best talent, but the best fit.
                         </div>
                         <div className="artist__video">
@@ -37,8 +37,8 @@ function Artists() {
                     <p className="artist__title">ARTIST DEVELOPMENT</p>
                     <div className="artist__main">
                         <div className="artist__text">The company believes in creating next-generation artists who can inspire, influence and impact lives through their music.
-                 They will be trained under talented professionals and put through several fun tasks that can help them develop their craft and skills, shape their career 
-                 and personality in the music industry.</div>
+                 They will be trained under talented professionals and put through several fun tasks that can help them develop their craft and skills, shape their <span> career 
+                 and personality in the music industry.</span></div>
                         <div className="artist__video">
                         <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
                     frameborder='0'

@@ -15,8 +15,8 @@ const Main = () => {
                     WHO WE ARE
                 </p>
                 <p className="main__whoWeAreContent">
-                Driven by the idea of Artistic Integrity, BYOND Entertainment is a 360 degree based
-                     music-based company cum record label that promises the most creativeride to our
+                Driven by the idea of Artistic Integrity, BYOND Entertainment is a 360 degree
+                     music-based company cum record label that promises the most creative ride to our
                      artists and consumers. We aim to bring artists together through talent hunts,
                       train them to be a better version of themselves and launch them as a group under our label.
                 </p>
@@ -29,7 +29,7 @@ const Main = () => {
                 <div className="whatWeDo__content">
                 <div className="main__whatWeDo1">
                     <p className="whatWeDoTitle">
-                    Album Planning and In house Production
+                    Album Planning and <br/>In house Production
                     </p>
                     <p className="whatWeDoMain">
                     Label Album planning, broadcast music production
@@ -65,16 +65,14 @@ const Main = () => {
                     <div className="ourValues__content">
                         <div className="ourValues__content1">
                                 <div className="ourValues__contentTitle">
-                                Passion: 
-                                </div>
+                                Passion: </div>
                                 <div className="ourValues__contentMain">
                                 Every great dream begins with a driving force that gives us a reason 
                     to do what we love to do. We, as a company, value and welcome all passionate dreamers.
                                 </div>
                         </div>
                         <div className="ourValues__content2">
-                                <div className="ourValues__contentTitle">Empathy: 
-                                </div>
+                                <div className="ourValues__contentTitle">Empathy: </div>
                                 <div className="ourValues__contentMain">
                                     Every piece of music that was ever created conveyed our stories through the artist.
                                     We at BYOND Entertainment believe in telling stories of you and me through our music.

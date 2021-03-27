@@ -19,8 +19,12 @@
   font-family: "Punch-condense";
   src: url("./fonts/PunchCondensed-lg9L5.otf") format("truetype");
 }
+@font-face {
+  font-family: "Segoe UI Bold";;
+  src: url("./fonts/Segoe UI Bold.woff") format("truetype");
+}
 
 html, body{
     overflow-x: hidden;
-    
+    line-height: 1.9;
 }

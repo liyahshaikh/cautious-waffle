@@ -3,7 +3,7 @@
     display: flex;
     background-color: transparent;
     top: 0;
-    padding-top:15px;
+    padding-top:5px;
     z-index: 100;
     align-items: center;
     justify-content: space-between;
@@ -20,8 +20,8 @@
 .header__nav{
 
     margin-left: auto;
-    padding-right: 80px;
-    padding-top: 80px;
+    padding-right: 120px;
+    padding-top: 45px;
     display: flex;
     justify-content: space-evenly;
     
@@ -43,7 +43,12 @@
     font-family: NexaLight;
     color: white;
     text-decoration: none;
+    font-weight: 900;
 
+}
+.header__dropdown{
+    margin-bottom: 12px;
+    padding-bottom:19.5px;
 }
 @media (max-width: 768px){
     .header{

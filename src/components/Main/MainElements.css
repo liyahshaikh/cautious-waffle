@@ -6,7 +6,7 @@
     position: relative;
     padding: 0;
     white-space: nowrap;
-    font-family: NexaLight, sans-serif;
+    /*font-family: NexaLight, sans-serif;*/
     
 
     
@@ -26,7 +26,8 @@
 }
 .main__title{
     font-size: 40px;
-    font-family: NexaBold;
+    font-family: NexaBold, sans-serif;
+    
     
 }
 
@@ -36,7 +37,7 @@
     width: 60%;
     padding: 60px;
     z-index: 100;
-    font-family: NexaLight, sans-serif;
+    
 }
 .main__whoWeAreContent{
     font-size: 20px;
@@ -46,7 +47,7 @@
     color: #000;
     border: none;
   background-color: transparent;
-  font-family: NexaBold;
+  font-family: NexaBold, sans-serif;
   align-self: center;
   padding-right: 0;
     
@@ -58,7 +59,7 @@
    padding-top: 40px;
     
   cursor: pointer;
-  font-size: 15px;
+  font-size: 18.5px;
 
 
 
@@ -69,7 +70,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+
 .whatWeDo__main{
     font-size: 20px;
 
@@ -77,42 +80,58 @@
 .whatWeDo__content{
     
     display: grid;
-    padding-left: 150px;
+    justify-items: center;
+    align-items: top;
     padding-top: 50px;
     padding-bottom: 50px;
     grid-template-areas: "a b"
+                        ". d"
                           "c d";
 
 }
 
 .main__whatWeDo1{
+    padding-top: 30px;
     grid-area: a;
     width: 50%;
-    font-family: NexaLight, sans-serif;
-
+    
+    
+    
 }
 .whatWeDoTitle{
-    font-size: 25px;
-    font-family: NexaBold, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    
+
+    
 }
 .main__whatWeDo2{
     grid-area: b;
     width: 50%;
-    font-family: NexaLight, sans-serif;
+    align-self: center;
+    
+    
+    
+    
+    
 
 }
 .main__whatWeDo3{
     grid-area: c;
     width: 50%;
-    font-family: NexaLight, sans-serif;
+    
+    
+    
 
 
 }
 .main__whatWeDo4{
     grid-area: d;
     width: 50%;
-    font-family: NexaLight, sans-serif;
-
+    
+    
+    
+    
     
 }
 .semicircle__right{
@@ -134,66 +153,87 @@
     display: flex;
     justify-content: center;
 }
-iframe{
+.main__video > iframe{
 
     padding: 50px;
     align-self: center;
     left: 50%;
-    height: 35vw;
-    width:50vw;
+    height: 45vw;
+    width:70vw;
 }
 
 .main__ourValuesSection{
     display: flex;
     flex-direction: column;
     padding: 60px;
+    padding-top: 120px;
     font-size: 20px;
+    
+}
+.main__ourValuesSection > .main__title{
+    margin-left: 15px;
 }
 .ourValues__contentTitle{
+    padding-right: 15px;
     font-family: NexaBold, sans-serif;
-    padding-right: 20px;
     
 }
-.ourValues__contentMain{
-    
-}
+
 .ourValues__content1{
     display: flex;
     padding: 20px;
-    font-family: NexaLight, sans-serif;
+    column-gap: 20px;
     
     
+    
+    
+}
+.ourValues__content1 > .ourValues__contentMain{
+    padding-left: 20px;
 }
 .ourValues__content2{
     display: flex;
     padding: 20px;
-    font-family: NexaLight, sans-serif;
+    column-gap: 20px;
     
     
+    
+}
+.ourValues__content3 > .ourValues__contentMain{
+    padding-left: 15px;
+}
+.ourValues__content2 > .ourValues__contentMain{
+    padding-left: 15px;
 }
 .ourValues__content3{
     display: flex;
     padding: 20px;
-    font-family: NexaLight, sans-serif;
+    column-gap: 20px;
+    
     
     
 }
 .ourValues__content4{
     display: flex;
     padding: 20px;
-    font-family: NexaLight, sans-serif;
+    column-gap: 20px;
+    font-size: 20px;
+    
     
     
 }
+
 .main__ourTeamSection{
     padding: 60px;
+}
+.main__ourTeamSection > .main__title{
+    margin-right: 12px;
 }
 
 .ourTeam__text{
     width: 60%;
     font-size: 20px;
-    font-family: NexaLight, sans-serif;
-
+    
 }
 .ourTeam__content{
     display: flex;
@@ -219,24 +259,34 @@ font-size: 25px;
 }
 
 @media (max-width: 768px){
+    .main__whoWeAreContent{
+        font-size: 15px;
+    }
     .whatWeDo__content{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 20px;
-        
+        font-size: 15px;
+    }
+    .main__whatWeDo > .main__title{
+        align-self: center;
     }
     .main__whatWeDo1{
         width: 100%;
+        font-size: 15px;
     }
     .main__whatWeDo2{
         width: 100%;
+        font-size: 15px;
     }
     .main__whatWeDo3{
         width: 100%;
+        font-size: 15px;
     }
     .main__whatWeDo4{
         width: 100%;
+        font-size: 15px;
     }
     .ourValues__content1{
         display: flex;
@@ -245,6 +295,9 @@ font-size: 25px;
         
         
         
+    }
+    .ourValues__contentMain{
+        font-size: 15px;
     }
     .ourValues__content2{
         display: flex;
@@ -275,6 +328,7 @@ font-size: 25px;
     .ourTeam__text{
         padding-bottom: 100px;
         width: 100%;
+        font-size: 15px;
     }
     .btn-apply-now{
         width: 50%;
