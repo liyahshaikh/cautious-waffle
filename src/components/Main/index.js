@@ -53,7 +53,7 @@ const Main = () => {
             </div>
             <div className="semicircle__right"></div>
             <div className="main__video">
-            <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+            <iframe src='https://drive.google.com/file/d/1-D2UpD8RP7vY9H39q36D_iBeYfBEP3tf/preview?autoplay=1'
                     frameborder='0'
                     allow='autoplay; encrypted-media'
                     allowfullscreen

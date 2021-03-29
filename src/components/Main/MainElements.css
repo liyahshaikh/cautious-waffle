@@ -153,7 +153,7 @@
     display: flex;
     justify-content: center;
 }
-.main__video > iframe{
+.main__video > video{
 
     padding: 50px;
     align-self: center;
@@ -333,6 +333,10 @@ font-size: 25px;
     .btn-apply-now{
         width: 50%;
         align-items: left;
+    }
+    .amin__video > video{
+        height: 50vw;
+        width: 80vw;
     }
 }
 

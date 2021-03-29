@@ -48,9 +48,7 @@ const Profile = () => {
             <div className="profile__content1">
                 <p className="profile__contentTitle">OUR STORY</p>
                 <p className="profile__contentMain">
-                    Our Vision is to train and nurture young artists who would pave the way for a unique popular culture in India and expand it globally.
-                    BYOND Entertainment also envisions to be the best music based production company and artist management platform through constant 
-                    innovations in music, lifestyle and technology.
+                Indian music industry which despite being a very capable space with talented individuals , have always been outshined by the indian film industry. Thus the founders felt a need for an independent music platform for artists and better music based global content. On the other hand being highly inspired by kpop(Korean pop) which emerged as one of the most steadily growing space in the world music scene ,impacting the world through not just meaningful music, but even visuals , lyrics and the high anticipation of Indian youngsters, kind of acted as a catalyst to create a similar approach in India.
                 </p>
 
             </div>

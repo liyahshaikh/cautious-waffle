@@ -24,10 +24,10 @@ function Artists() {
                 BYOND Entertainment does not look for the best talent, but the best fit.
                         </div>
                         <div className="artist__video">
-                        <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+                        <iframe src='https://drive.google.com/file/d/1-G9xeayGeO41c0SMm-CRviQINhZT2tCI/preview'
                     frameborder='0'
-                    allow='autoplay; encrypted-media'
-                    allowfullscreen
+                    allow='encrypted-media'
+                    allowfullscreen="true"
                     title='video' 
                 />
                         </div>
@@ -40,10 +40,10 @@ function Artists() {
                  They will be trained under talented professionals and put through several fun tasks that can help them develop their craft and skills, shape their <span> career 
                  and personality in the music industry.</span></div>
                         <div className="artist__video">
-                        <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+                        <iframe src='https://drive.google.com/file/d/1-Kwy25yQQRFMQD1TbLmMLHuSsZC5a3SR/preview'
                     frameborder='0'
-                    allow='autoplay; encrypted-media'
-                    allowfullscreen
+                    allow='encrypted-media'
+                    allowfullscreen="true"
                     title='video' 
                     
                 />
@@ -57,10 +57,10 @@ function Artists() {
                 The company takes care of personal branding, album creation and promotion, record releases and tours, overall artist marketing and merchandising, 
                 concert planning, and performance management.</div>
                         <div className="artist__video">
-                        <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+                        <iframe src='https://drive.google.com/file/d/1-LnzkW-OJdOWsqWccDz7QlQ0jAcv9yZZ/preview'
                     frameborder='0'
-                    allow='autoplay; encrypted-media'
-                    allowfullscreen
+                    allow='encrypted-media'
+                    allowfullscreen="true"
                     title='video' 
                     
                 />

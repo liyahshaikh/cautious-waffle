@@ -13,20 +13,20 @@ const Footer = () => {
         <div className="footer__container">
         
             <div className="footer__iconSection">
-            <IconButton to="/">
-                <InstagramIcon size="large" style={{color: '#000000', size:"5x"}}></InstagramIcon>
+            <IconButton >
+                <InstagramIcon onClick={() => window.open("https://www.instagram.com/byondentertainment_/")} size="large" style={{color: '#000000', size:"5x"}}></InstagramIcon>
             </IconButton>
-            <IconButton to="/">
-                <YouTubeIcon size="large" style={{color: '#000000', size:"5x"}}></YouTubeIcon>
+            <IconButton >
+                <YouTubeIcon  onClick={() => window.open("https://www.youtube.com/channel/UC5XBKvqOGrd3irOG44NJDQA")} size="large" style={{color: '#000000', size:"5x"}}></YouTubeIcon>
             </IconButton >
-            <IconButton to="/">
-                <FacebookIcon size="large" style={{color: '#000000', size:"5x"}}></FacebookIcon>
+            <IconButton >
+                <FacebookIcon onClick={() => window.open("https://m.facebook.com/BYOND-Entertainment-102270881967076/?ref=bookmarks")} size="large" style={{color: '#000000', size:"5x"}}></FacebookIcon>
             </IconButton>
-            <IconButton to="/">
-                <TwitterIcon size="large" style={{color: '#000000', size:"5x"}}></TwitterIcon>
+            <IconButton>
+                <TwitterIcon onClick={() => window.open("https://twitter.com/BYONDEntertain1?s=08")} size="large" style={{color: '#000000', size:"5x"}}></TwitterIcon>
             </IconButton>
-            <IconButton to="/">
-                <LinkedInIcon size="large" style={{color: '#000000', size:"5x"}}></LinkedInIcon>
+            <IconButton >
+                <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/byond-entertainment-9a3a47209/")} size="large" style={{color: '#000000', size:"5x"}}></LinkedInIcon>
             </IconButton>
             </div>
             <div className="footer__copywriteSection">
