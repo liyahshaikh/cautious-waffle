@@ -37,6 +37,7 @@
     width: 60%;
     padding: 60px;
     z-index: 100;
+    padding-left: 120px;
     
 }
 .main__whoWeAreContent{
@@ -168,6 +169,7 @@
     padding: 60px;
     padding-top: 120px;
     font-size: 20px;
+    
     
 }
 .main__ourValuesSection > .main__title{
