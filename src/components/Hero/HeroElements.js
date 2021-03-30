@@ -10,13 +10,19 @@ width: 100%;
 background-position: center;
 
 line-height: 1.9;
-@media ${device.mobileL}{
+@media only screen and (max-width: 768px){
     height: 70vh;
+    
 }
 
 
 `
 export const HeroContent = styled.div`
+@media (max-width: 768px){
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
 `
 export const HeroItems = styled.div`
 `

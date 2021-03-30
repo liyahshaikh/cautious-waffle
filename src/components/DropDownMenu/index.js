@@ -37,13 +37,13 @@ const DropDownMenu = () => {
       </div>
       <nav ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
         <ul>
-          <li className="hidden"><Link to="/">About Us</Link></li>
-          <li className="hidden"><Link to="/artists">Artists</Link></li>
-          <li className="hidden"><a href="/">Recruit</a></li>
-          <li className="hidden"><a href="/">Audition</a></li>
+          <li className="hidden"><Link to="/">ABOUT US</Link></li>
+          <li className="hidden"><Link to="/artists">ARTISTS</Link></li>
+          <li className="hidden"><a href="/">RECRUIT</a></li>
+          <li className="hidden"><a href="/">AUDITION</a></li>
           <li><a href="/">FAQ</a></li>
           <li><a href="/">NEWS AND NOTICE</a></li>
-          <li><a href="/">AUDITION</a></li>
+          
           
         </ul>
       </nav>

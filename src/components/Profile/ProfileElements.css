@@ -95,6 +95,7 @@
 .profile__contentMain{
     width: 60%;
     font-size: 20px;
+    text-align: center;
 }
 .profile__backNavigationPanel{
     display: flex;
@@ -137,7 +138,7 @@
 }
 @media (max-width:768px){
     .profile__headerLine1{
-        font-size: 120px;
+        font-size: 80px;
     }
     .profile__bar{
         padding: 10px;

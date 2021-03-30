@@ -16,7 +16,7 @@ const Main = () => {
                 </p>
                 <p className="main__whoWeAreContent">
                 Driven by the idea of Artistic Integrity, BYOND Entertainment is a 360 degree
-                     music-based company cum record label that promises the most creative ride to our
+                     music-based production company cum record label that promises the most creative ride to our
                      artists and consumers. We aim to bring artists together through talent hunts,
                       train them to be a better version of themselves and launch them as a group under our label.
                 </p>
@@ -29,7 +29,7 @@ const Main = () => {
                 <div className="whatWeDo__content">
                 <div className="main__whatWeDo1">
                     <p className="whatWeDoTitle">
-                    Album Planning and <br/>In house Production
+                    Album Planning / <br/>In house Production
                     </p>
                     <p className="whatWeDoMain">
                     Label Album planning, broadcast music production
@@ -42,7 +42,7 @@ const Main = () => {
                 </div>
                 <div className="main__whatWeDo3">
                     <p className="whatWeDoTitle">Social Welfare</p>
-                    <p className="whatWeDoMain">Boration on CSR and society welfare, awareness projects/programs.</p>
+                    <p className="whatWeDoMain">Collaboration on CSR and society welfare, awareness projects/programs.</p>
                 </div>
                 <div className="main__whatWeDo4">
                 <p className="whatWeDoTitle">Additional Business</p>
