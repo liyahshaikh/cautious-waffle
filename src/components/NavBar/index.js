@@ -18,7 +18,7 @@ function NavBar() {
               
                 </div>
                 <div className="header__dropdown">
-                    <DropDownMenu/>
+                    <DropDownMenu title="main"/>
                 </div>
             
             

@@ -44,16 +44,16 @@
     font-size: 20px;
 }
 .main__profileLink{
-    text-decoration: none;
-    color: #000;
-    border: none;
+    
+    color: #001eff;
+    
   background-color: transparent;
   font-family: NexaBold, sans-serif;
   align-self: center;
   padding-right: 0;
     
   justify-content: center;
-  border-bottom: 1px solid #000;
+  
     margin-right:  auto;
    position: absolute;
    right: 0;
@@ -64,6 +64,9 @@
 
 
 
+}
+.main__profileLink :hover{
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
 .main__whatWeDo{
     padding: 50px;
@@ -265,6 +268,9 @@ font-size: 25px;
 }
 
 @media (max-width: 768px){
+    .main__whoWeAre{
+        padding-left: 60px;
+    }
     .main__whoWeAreContent{
         font-size: 15px;
     }

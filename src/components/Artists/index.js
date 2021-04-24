@@ -2,8 +2,10 @@
 
 import Footer from '../Footer'
 import Hero from '../Hero'
+import NavBar from '../NavBar'
 
 import ScrollTopButton from '../ScrollTopButton'
+import ArtistNav from './ArtistNav'
 import "./Artists.css"
 
 
@@ -12,7 +14,13 @@ import "./Artists.css"
 function Artists() {
     return (
         <div>
-            <Hero />
+            <ArtistNav/>
+            <div className="artist__headerMain">
+                <div className="artist__headerTitle">
+                    ARTIST
+                </div>
+            </div>
+            
             <div className="artists__container">
                 <div className="artists__content1">
                     <p className="artist__title">ARTIST RECRUITMENT</p>

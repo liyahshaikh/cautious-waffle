@@ -84,7 +84,7 @@
     margin: 0 3vw;
   }
   
-  .hamburger__icon{
+  .hamburger__mainicon{
     color: #fff;
     padding-top: 10px;
     
@@ -95,3 +95,8 @@
        
      }
    }
+   .hamburger__artistsicon{
+    color: #000;
+    padding-top: 10px;
+    
+  }

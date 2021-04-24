@@ -2,13 +2,13 @@ import React from 'react'
 import NavBar from '../NavBar'
 import {HeroContainer, HeroContent, HeroItems,HeroH1,HeroP} from "./HeroElements"
 
-const Hero = () => {
+const Hero = ({title}) => {
     return (
         <HeroContainer>
             <NavBar />
             <HeroContent>
                 <HeroItems>
-                    <HeroH1 className="hero-h1">Experience. Evolve. Inspire.</HeroH1>
+                    <HeroH1 className="hero-h1">{title}</HeroH1>
                     <HeroP><strong style={{fontFamily: "NexaBold"}}>BYOND</strong> Entertainment</HeroP>
                 </HeroItems>
             </HeroContent>

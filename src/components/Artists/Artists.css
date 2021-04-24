@@ -47,7 +47,33 @@ iframe{
     width: 65vw;
 }
 
+
+
+
+.artist__headerTitle{
+    font-family: "Segoe UI Bold";
+    font-size: 100px;
+    font-weight: 900;
+    margin: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.artist__headerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    
+}
 @media (max-width:768px){
+    .artist__headerMain{
+        padding-top: 120px;
+    }
+    .artist__headerTitle{
+        font-size: 60px;
+
+    }
     .artist__title{
         font-size: 20px;
     }
@@ -62,6 +88,4 @@ iframe{
         height: 50vw;
         width: 80vw;
     }
-
 }
-

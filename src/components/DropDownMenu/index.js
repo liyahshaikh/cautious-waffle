@@ -4,7 +4,9 @@ import "./DropDownMenuElements.css"
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
 import {NavLink as Link} from "react-router-dom"
-const DropDownMenu = () => {
+const DropDownMenu = ({title}) => {
+
+    
     const dropdownRef= useRef(null);
     const [isActive, setIsActive]= useState(false);
     const onClick = () => setIsActive(!isActive);
@@ -31,7 +33,7 @@ const DropDownMenu = () => {
         <div className="menu-container">
       <div onClick={onClick} className="menu-trigger">
       <IconButton to="/">
-                <MenuIcon size="large" className="hamburger__icon"></MenuIcon>
+                <MenuIcon size="large" className={`hamburger__${title}icon`} ></MenuIcon>
                 </IconButton>
         
       </div>

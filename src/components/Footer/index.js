@@ -26,7 +26,7 @@ const Footer = () => {
                 <TwitterIcon onClick={() => window.open("https://twitter.com/BYONDEntertain1?s=08")} size="large" style={{color: '#000000', size:"5x"}}></TwitterIcon>
             </IconButton>
             <IconButton >
-                <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/byond-entertainment-9a3a47209/")} size="large" style={{color: '#000000', size:"5x"}}></LinkedInIcon>
+                <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/company/byond-entertainment")} size="large" style={{color: '#000000', size:"5x"}}></LinkedInIcon>
             </IconButton>
             </div>
             <div className="footer__copywriteSection">

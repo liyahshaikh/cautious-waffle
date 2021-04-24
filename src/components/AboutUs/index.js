@@ -6,7 +6,7 @@ import Main from '../Main'
 function AboutUs() {
     return (
         <div>
-            <Hero />
+            <Hero title={"Experience. Evolve. Inspire"}/>
             <Main />
             
             
